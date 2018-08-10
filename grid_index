@@ -1,0 +1,116 @@
+#include<iostream>
+#include<cstdlib>
+#include<cmath>
+#include<ctime>
+#include<cstring>
+
+#define rev 40.3
+
+using namespace std;
+
+void display(int x)
+{
+cout<<endl<<"LOCATION :: "<<x;   
+}
+void display2(int z)
+{
+cout<<z<<endl;     
+} 
+
+int arrx[10] = {1,2,3,4,5,6,7,8,9};
+
+int arrz[10] = {1,2,3,4,5,6,7,8,9};
+
+int main()
+{
+    
+    while(1)
+       while(true)
+       for(;;)
+       {
+    ///SECONDS/TIME CONSTRUCTOR PER SECOND
+      for(int tmx = 1; tmx > 0; tmx++){
+              
+        cout<<"SECONDS :: "<<tmx*2<<endl;        
+       
+       ///DATE AND TIME CODE
+       time_t now= time(0);
+       char*dt=ctime(&now);
+       cout<<"GEOGRAPHYCAL TIME:: "<<dt<<endl;
+       
+       ///TIMER AND SPEED REGURATORY CODE
+       clock_t cl;
+       cl = clock();
+       _sleep(1000);
+       cl = clock() - cl ;
+       _sleep(1000);
+       
+       ///digital map
+       ///LOCATION INDEXES
+       ///MEMORY LOX
+    // driver code
+    
+    // assigning value to string s
+    string s = "ABCDFGHIJKLMNOP";
+ 
+    int n = s.length(); 
+     
+    // declaring character array
+    char char_array[n+1]; 
+     
+    // copying the contents of the 
+    // string to char array
+    
+    strcpy(char_array, s.c_str()); 
+
+       
+       if(tmx == 1)
+       {        
+              int arrx[10] = {1,2,3,4,5,6,7,8,9};
+
+              int arrz[10] = {1,2,3,4,5,6,7,8,9};  
+                
+       display(arrx[0]);
+      
+       display2(arrz[0]);
+            cout<<char_array[0];
+
+         }
+         
+      if(tmx == 8)
+         {
+            int arrx[10] = {1,2,3,4,5,6,7,8,9};
+
+             int arrz[10] = {1,2,3,4,5,6,7,8,9}; 
+             
+             
+       display(arrx[0]);
+      
+       display2(arrz[1]);                
+             cout<<char_array[1];
+                      }
+      if(tmx == 12)
+      {  
+            int arrx[10] = {1,2,3,4,5,6,7,8,9};
+
+            int arrz[10] = {1,2,3,4,5,6,7,8,9};
+             
+       display(arrx[0]);
+      
+       display2(arrz[2]);      
+            cout<<char_array[2];
+      }        
+              
+       
+              }       
+       }    
+}
+
+
+
+
+
+
+
+
+
